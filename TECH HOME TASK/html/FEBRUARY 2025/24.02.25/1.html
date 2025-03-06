@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Subscription Plans</title>
+    <style>
+        table {
+            width: 80%;
+            border-style: double;
+            margin: 20px auto;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+        }
+        thead {
+            background-color: black;
+            color: white;
+        }
+        tfoot {
+            background-color: black;
+            font-weight: bold;
+            color: white;
+        }
+        .premium {
+            background-color:crimson;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Subscription plans</caption>
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Basic</th>
+                <th>Standard</th>
+                <th>Premium</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Price per month</td>
+                <td>$10</td>
+                <td>$20</td>
+                <td class="premium">$30</td>
+            </tr>
+            <tr>
+                <td>Number of Users</td>
+                <td>1</td>
+                <td>5</td>
+                <td class="premium">10</td>
+            </tr>
+            <tr>
+                <td>Storage Space</td>
+                <td>50GB</td>
+                <td>200GB</td>
+                <td class="premium">1TB</td>
+            </tr>
+            <tr>
+                <td>Customer Support</td>
+                <td>Email</td>
+                <td>Email & Chat</td>
+                <td class="premium">24/7 Phone & Chat</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Choose the plan that suits you best!</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
